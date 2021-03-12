@@ -1,6 +1,7 @@
 const button = document.getElementById("button");
 const audioElement = document.getElementById("audio");
-require("dotenv").config();
+const API_KEY = process.env;
+console.log(API_KEY);
 
 // Disable/Enable Audio button
 function toggleButton() {
@@ -10,7 +11,7 @@ function toggleButton() {
 // Passing Joke to VoiceRSS
 function tellMe(joke) {
   VoiceRSS.speech({
-    key: process.env.MY_KEY,
+    key: API_KEY,
     src: joke,
     hl: "en-us",
     v: "Linda",
