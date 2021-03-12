@@ -1,5 +1,6 @@
 const button = document.getElementById("button");
 const audioElement = document.getElementById("audio");
+require("dotenv").config();
 
 // Disable/Enable Audio button
 function toggleButton() {
