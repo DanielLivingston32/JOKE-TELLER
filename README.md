@@ -19,7 +19,7 @@ This is a simple training app based on HTML, CSS, JS and 2 APIs - <a href = "htt
 
 <h1>Live Preview</h1>
 
-You can check out the live preview here: <button><a href="https://joke-teller-app.netlify.app/">Preview</a></button>
+You can check out the live preview here: <button><a href="https://daniellivingston32.github.io/JOKE-TELLER/">Preview</a></button>
 
 <h1>Running this Locally</h1>
 
@@ -33,4 +33,4 @@ You can check out the live preview here: <button><a href="https://joke-teller-ap
 
 - Once your account is activated, you can copy your API key and paste it into the script.js file.
 
-- Line 18, replace 'config.MY_KEY' with your API key contained in single quotes.
+- Line 12, replace the api key given under 'key' section with your API key contained in single quotes.
